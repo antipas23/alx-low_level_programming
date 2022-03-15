@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<main.h>
 /**
  * main - printing putchar 
  * Return: 0
