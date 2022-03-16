@@ -9,6 +9,6 @@
 
 int add(int a, int b)
 {
-	char n = a + b;
-	return (n);
+	char r = a + b;
+	return (r);
 }
