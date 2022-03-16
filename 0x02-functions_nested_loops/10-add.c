@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
- * add - summ
+/**
+ * add- summ of two number
  * @a: the 1 value
- * @a: the 2 value
+ * @b: the 2 value
  * Return: 0
- */
+**/
 
 int add(int a, int b)
 {
