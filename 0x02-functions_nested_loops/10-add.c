@@ -5,12 +5,11 @@
  * @a: the 1 value
  * @a: the 2 value
  * Return: 0
- * */
+ */
 
 int add(int a, int b)
 {
-	int sum;
+	int sum = (a + b);
 
-	sum = (a + b);
 	return (sum);
 }
