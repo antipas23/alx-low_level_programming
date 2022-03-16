@@ -9,7 +9,8 @@
 
 int add(int a, int b)
 {
-	char r;
-		r = a + b;
-	return (r);
+	char sum;
+
+	sum = a + b;
+	return (sum);
 }
