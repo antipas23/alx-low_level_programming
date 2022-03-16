@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- *
+ * jack_bauer- time
+ * Return: 0
  * **/
 
 void jack_bauer(void)
@@ -13,9 +14,9 @@ void jack_bauer(void)
 	char l = ':';
 	char e;
 
-	for(a = '0'; a <= '2'; a++)
+	for (a = '0'; a <= '2'; a++)
 	{
-		if(a < '2')
+		if (a < '2')
 			e = '9';
 		else
 			e = '3';
@@ -34,5 +35,5 @@ void jack_bauer(void)
 				}
 			}
 		}
-	}	
+	}
 }
