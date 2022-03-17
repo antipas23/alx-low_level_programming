@@ -6,13 +6,12 @@
  * @c: the value given
  *
  * Return: if it is 1 else 0
- * 
 **/
 
 int _isupper(int c)
 {
-	for (; c <='z'; c++)
-	{	
+	for (; c <= 'z'; c++)
+	{
 		if (c <= 'Z')
 		{
 			return (1);
