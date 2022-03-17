@@ -10,12 +10,8 @@
 
 int _isupper(int c)
 {
-	for (; c <= 'z'; c++)
-	{
-		if (c <= 'Z')
-		{
+		if (c >= 'A' && c <= 'Z')
 			return (1);
-		}
-	}
-	return (0);
+		else
+			return (0);
 }
