@@ -1,14 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - prints its name, followed by a new line
- * @argc: n args
- * @argv: arr args
- * Return: 0
+ * main - prints number of arguments
+ * @argc: first parameter
+ * @argv: second parameter
+ *
+ * Description: prints number of arguments
+ * Return: 0 for code success
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+
+int main(int argc, char **argv)
 {
-	if (argc > 0)
-		printf("%d\n", argc - 1);
+	int sum;
+
+	for (sum = 0; sum < argc; sum++)
+	{
+		*argv[sum] = *argv[sum];
+	}
+	printf("%d\n", (sum - 1));
 	return (0);
 }
