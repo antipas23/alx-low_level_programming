@@ -1,2 +1,1 @@
-This is about statiscs Liberary
-
+This for the Static Library

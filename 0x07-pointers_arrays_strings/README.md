@@ -1,1 +1,1 @@
-This is ANOTHER POINTERS ANS ARRAYS QUESTION TO LEARN
+Even more pointers, arrays and strings
